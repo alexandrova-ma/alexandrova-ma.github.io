@@ -5,6 +5,7 @@ html {
 * {
     box-sizing: inherit;
 }
+
 .container {
     max-width: 1220px;
     margin: 0 auto;
@@ -13,6 +14,7 @@ html {
     padding-left: 20px;
     padding-right: 30px;
 }
+
 .container1 {
     max-width: 100%;
     margin: 0 auto;
@@ -21,16 +23,19 @@ html {
 
 .header__container {
     justify-content: space-between;
-   
+
 }
+
 .nav__menu {
     list-style: none;
     padding: 0;
     margin: 0;
 }
+
 .nav__menu li {
     display: inline-block;
 }
+
 .nav__menu a {
     display: block;
     text-decoration: none;
@@ -40,6 +45,7 @@ html {
     letter-spacing: 0.5px;
     color: #5D5F65;
 }
+
 .header__logo a {
     display: block;
     text-decoration: none;
@@ -49,11 +55,13 @@ html {
     font-size: 20px;
     color: #141720;
 }
-.slider{
+
+.slider {
     max-width: 1220px;
     margin: 0 auto;
     text-align: center;
 }
+
 .slider__h {
     font-family: Montserrat;
     font-weight: bold;
@@ -61,30 +69,37 @@ html {
     letter-spacing: 1px;
     color: #141720;
     margin-top: 215px;
-    margin-bottom:27px;
+    margin-bottom: 27px;
 }
- .slider__p {
+
+.slider__p {
     font-family: Ubuntu;
     font-size: 25px;
     letter-spacing: 0.5px;
     color: #5D5F65;
-    margin-bottom:318px; 
+    margin-bottom: 318px;
 }
-.about-us, .work, footer {
-    width:100% ;
+
+.about-us,
+.work,
+footer {
+    width: 100%;
     background-color: #141720;
-    color:#ffffff;
+    color: #ffffff;
 }
+
 .col-6 {
     max-width: 50%;
     width: 50%;
     display: flex;
     justify-content: center;
 }
+
 .col-4 {
     width: calc(100% / 12 * 4 - 50px);
     margin-right: 50px;
 }
+
 /*.text-container {
     margin-top: 140px;
     max-width: 450px;
@@ -97,27 +112,33 @@ html {
     height: 45%;
     /*padding-bottom:35%;*/
 }
+
 .timeline__description {
-    color: #5D5F65;   
+    color: #5D5F65;
 }
+
 .headline {
     font-family: Montserrat;
     font-size: 28px;
     letter-spacing: 1px;
     margin-bottom: 84px;
 }
+
 .paragraph {
     font-family: Ubuntu;
     font-size: 15px;
     letter-spacing: 0.5px;
     line-height: 26px;
 }
+
 .paragraph1 {
     margin-bottom: 34px;
 }
+
 .our-services {
     background-color: #EFEFEF;
 }
+
 .our-services__h {
     font-family: Montserrat;
     font-size: 28px;
@@ -125,17 +146,20 @@ html {
     letter-spacing: 1px;
     color: #2B2B2B;
     padding-top: 140px;
-    padding-bottom: 80px; 
+    padding-bottom: 80px;
 }
+
 .service-pic {
-    margin-bottom: 20px; 
+    margin-bottom: 20px;
 }
+
 .service__name {
     font-family: Montserrat;
     font-size: 20px;
     color: #141720;
     margin-bottom: 20px;
 }
+
 .service__description {
     font-family: Ubuntu;;
     font-size: 15px;
@@ -144,12 +168,14 @@ html {
     margin-bottom: 70px;
     line-height: 26px;
 }
+
 .our-services__container {
-    padding-bottom:80px;
+    padding-bottom: 80px;
 }
+
 .block-img {
     width: 100%;
-    height:100%;
+    height: 100%;
     max-width: auto;
     max-height: auto;
     min-width: 50%;
@@ -163,20 +189,25 @@ html {
     letter-spacing: 1px;
     color: #FFFFFF;
 }
+
 .timeline__img {
     position: relative;
 }
+
 .img-time {
     position: absolute;
-    right:35%;
-    height:100%;
+    right: 35%;
+    height: 100%;
 }
+
 .timeline {
     padding-bottom: 190px;
 }
+
 .text-container_left {
-   /* margin-left:20%;*/
+    /* margin-left:20%;*/
 }
+
 .text-container_left2 {
     /*margin-left:13%;*/
 }
