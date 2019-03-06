@@ -14,16 +14,23 @@
         <input name="name" placeholder="Имя"> <br/>
         <input name="phone" placeholder="+7 (---) --- --"> <br/>
         <textarea name="message" placeholder="Сообщение"></textarea> <br/>
-        <label>Подписаться
-            <input type="checkbox" name="consent" value="true"> <br/>
+        <p>Выберите курсы</p>
+        <label>CSS
+            <input type="checkbox" name="course[]" value="css"> <br/>
+        </label>
+        <label>Java Script
+            <input type="checkbox" name="course[]" value="js"> <br/>
+        </label>
+        <label>PHP
+            <input type="checkbox" name="course[]" value="php"> <br/>
         </label>
         Выберите время звонка: </br>
-        <label>Утро
+        <label>8:00-12:00
             <input type="radio" name="time" value="morning"> <br/>
         </label>
-        <label>День
+        <label>12:00-17:00
             <input type="radio" name="time" value="day"> <br/>
-        </label>Вечер
+        </label>17:00-21:00
             <input type="radio" name="time" value="evening"> <br/>
         </label>
         <input type="hidden" name="info"> <br/>
